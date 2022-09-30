@@ -1,0 +1,36 @@
+/* === Appear Transition === */
+.myclass-appear {
+    opacity: 0;
+}
+
+.myclass-appear-active {
+    opacity: 1;
+    transition: opacity 5000ms;
+}
+
+/* === Enter Transition === */
+.myclass-enter {
+    opacity: 0;
+}
+
+.myclass-enter-active {
+    opacity: 1;
+    transition: opacity 5000ms;
+}
+
+.myclass-enter-done {
+    opacity: 1;
+}
+/* === Exit Transition === */
+.myclass-exit {
+    opacity: 1;
+}
+
+.myclass-exit-active {
+    opacity: 0;
+    transition: opacity 5000ms;
+}
+
+.myclass-exit-done {
+    opacity: 0;
+}
